@@ -1,0 +1,245 @@
+/* */
+#homepage{
+	width:100%;
+}
+
+/*/
+
+*{
+  box-sizing: border-box;
+}
+
+/* elements specific to contacts contacts page */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+
+  table {
+    border-color: black;
+    color: black;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: black;
+  padding: 10px;
+}
+
+
+.column {
+  display: inline-block;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row{
+color: black;
+width: 100%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 75%;
+    margin-top: 0;
+  }
+}
+
+textarea{
+height: 200px;
+}
+
+h2{
+text-align: center;
+}
+
+p{
+
+background-color: white;
+color: black;
+font-size: 125%;
+}
+
+.row{
+text-align: center;
+background-color: black;
+}
+
+.leftcolumn{
+background-color: black;
+text-align: center;
+}
+
+form{
+color: white;
+background-color: black;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: black;
+  color: white;
+  font-size:125%;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+ border-style: solid;
+  border-width: 5px;
+  border-color:black;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: white;
+  color: black;
+  font-size: 150%;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+input{
+display: block; 
+margin: 0 auto;
+}
+
+
+#menu{
+text-align: center;
+}
+
+img, video, audio{
+   height: 100%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+video{
+   width: 100%;  
+   }
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+header {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  background: black;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+.imgblock {
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  text-align:center;
+}
+
+/* Add a card effect*/
+.card {
+  background-color: black;
+    text-align: center;
+  padding: 20px;
+}
+
+
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background: black; 
+  color: white;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+   #img3{
+  width: 75%;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+
+
