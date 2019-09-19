@@ -1,0 +1,17 @@
+array (
+  'c' => 
+  array (
+    0 => 'TimAdams',
+    1 => 'frequently',
+    2 => 'emptied',
+    3 => 'trauma',
+    4 => 'pillar',
+    5 => 'misrepresent',
+    6 => 'whistle',
+    7 => 'precision',
+    8 => 'volunteer',
+    9 => 'ordinery',
+    10 => 'urban',
+  ),
+  'score' => 90,
+)
